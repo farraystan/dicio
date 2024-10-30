@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dicionário Interativo</title>
+    <style>
+        body {
+            background-color: #000000;
+            color: #ddd;
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        input {
+            margin-bottom: 15px;
+            padding: 8px;
+            width: 100%;
+            box-sizing: border-box;
+            background-color: #333;
+            border: none;
+            color: #fff;
+        }
+        .termo {
+            margin: 5px 0;
+            padding: 10px;
+            border-bottom: 1px solid #444;
+        }
+        .escondido {
+            display: none;
+        }
+        .a {
+            text-align: center;
+        }
+        .form-container {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="a">Dicionário</h1>
+
+    <div class="form-container">
+        <input type="text" id="busca" placeholder="Pesquise um termo..." />
+
+        <div id="dicionario">
+            <div class="termo" data-termo="Python">
+                <strong>catalogo: dicionário: interpretador: contexto: categoria: área: espaço: Menu: Cardápio: lugar: local: aquilo que contém: banco de dados: sistema: vaga: mente: cérebro (Informação: Conhecimento: sabedoria: mídia)</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>Contato: Cliente: Usuário: Indivíduo: Pessoa</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>Vulcão: abertura na crosta terrestre de onde lava, cinzas e gases são expelidos.</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>Planeta: corpo celeste que orbita uma estrela e tem massa suficiente para ter gravidade suficiente para formar uma forma esférica.</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>Continente: parte sólida de um planeta</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>regra: Política: Lei: Ordenança: ordem: Norma: diretriz: Instrução: solução: verdade: obviedade: regulamento</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>deus: fonte da vida e das coisas: guia: direção: manual: amor: libertador: salvador</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>Física: propriedades</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>produto: criação: Dado: Coisa</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>substantivo: nome</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>Linguagem: protocolo</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>matemática: número</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>Atualizar: tornar mais completo</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>responsabilizar: automatizar: disciplinar</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>negar: rejeitar</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>decidir: escolher uma opção</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>excluir: remover/recuperar: restaurar</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>escolher: selecionar</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>lembrar</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>focar: se concentrar: dar atenção: prestar atenção</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>processar: executar: operar: usar dados lógicos</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>Relacionar: comparar: associar</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>ler: interpretar escrita</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>interpretar: aprender: compreender: entender: assimilar: estar em encontrar o significado: definir: compilar: traduzir: pensar: simular: direcionar: projetar: conhecer: procurar informações relacionadas</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>Investigar: procurar por vestígios</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>perguntar: pedir uma resposta</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>pesquisar: procurar informações</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>finalizar</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>verificar: analisar: examinar: inspecionar: monitorar: observar > identificar: reconhecer</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>pegar: obter: possuir</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>usar: pôr em uso: pôr em funcionamento: fazer tal coisa com alguma coisa</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>entregar: dar</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>buscar: procurar: querer: estar em > detectar: encontrar: achar</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>começar: iniciar</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>fazer ao mesmo tempo (simultâneo: que ocorre ou é realizado ao mesmo tempo que outra coisa)</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>agir (Ação: Atitude: ato: Comportamento) / reagir (reação: retorno da ação)</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>notificar: avisar</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>Acessar / bloquear</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>acreditar: crer: confiar</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>Escrever > desenhar</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>Abreviar</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>usar: fazer uso: pôr em uso</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>liderar: governar: dominar: reinar</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>economizar</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>economizar</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>julgar: reclamar: murmurar: estar com raiva: culpar</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>estimular: impulsionar: influenciar: motivar</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>valorizar: mostrar gratidão: ser grato</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>qual? (composição)</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>onde está/é? (local)</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>como? qual é a instrução correta? (guia)</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>quantos? (propriedades)</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>por quê? (causa: motivo)</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>pra que serve? (função: fisiologia)</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>Baixar: instalar</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>lutar: batalhar: guerrear: atacar (guerra: batalha: luta: ataque) / proteger (segurança: proteção: privacidade)</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>viver (Aventura: vivência: experiência externa: XP (aventureiro: explorador))</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>Atuar: desempenhar uma ação (atuação: desempenho de uma ação)</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>implementar: efetuar (implementação)</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>realizar: fazer (realização)</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>aplicar (aplicação)</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>desempenhar (desempenho)</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>Configurar</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>interagir: comunicar: conversar (comunicação: rede: cliente/servidor: conexão: ligação: vínculo: interação: emissor/receptor: conversa)</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>entrevistar: avaliar</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>avançar</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>continuar</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>interromper</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>interferir</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>gerenciar: gerir: administrar: controlar</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>Compartilhar (compartilhamento)</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>brincar: divertir (Lazer: diversão)</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>limitar, matar (Tristeza: limitação: morte: limite) /perdoar: libertar (espírito: chacra: consciência: liberdade: felicidade: alegria: amor: vida: saúde)</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>recompensar: premiar (prêmio: recompensa)</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>competir (torneio: campeonato: competição)</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>servir: atender: satisfazer: entregar: responder: resolver: solucionar (serviço: atendimento: satisfação: entrega: resposta: solução)</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>corroborar: colaborar: apoiar: ajudar: cooperar (cooperação: colaboração: ajuda: corroboração: apoio: suporte)</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>respeitar/desrespeitar (respeito/desrespeito)</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>Participar: se envolver: estar envolvido: se incluir: estar em reunião (participação: envolvimento: inclusão)</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>reunir: unir: pôr na mesma direção (igreja: reunião: união: comunhão: culto)</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>tratativa de tickets: registrar pedidos (ticket: registro de solicitação de suporte, incidente, problema técnico ou tarefa a ser resolvida. para rastrear e gerenciar solicitações de serviço e problemas reportados pelos usuários)</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>falar</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>entregar</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>entregar</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>nomear: etiquetar: atribuir</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>expandir</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>ver</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>ouvir</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>JOGOS: SIMULAÇÕES</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>departamento: setor</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>cargo</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>Julgamento: percepção</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>confiança</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>preocupação: medo: ansiedade</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>estresse: nervosismo: pressão</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>fluência/gagueira</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>claro: objetivo: conciso</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>organização: formatação: alinhamento</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>observar: coletar informações pela visão: ver</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>descrição: representação</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>conceito: categoria</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>conhecimento: habilidade: poder</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>problema: obstáculo</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>diário: cotidiano: histórico de todos os dias</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>crucial: essencial: fundamental</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>relevância: importância: valor</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>cenário: ambiente</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>premissa: apresentação: proposição</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>critério: padrão: regras</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>Obsessão: fixação: insistência: persistência</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>passar</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>empresa: equipe</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>usar/guardar</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>colocar/tirar</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>pegar/deixar > segurar/soltar</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>decidir: selecionar opção</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>jogar: simular: aprender</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>criar</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>contemplar: admirar: apreciar</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>inovar: atualizar: empreender</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>processar: trocar: converter</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>CICLO: ROTINA: ALGORITMO: HÁBITO: CULTURA: REPETIÇÃO: TRADIÇÃO: FLUXO</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>descansar: relaxar</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>tarefa: Desafio: Atividade: Objetivo: Compromisso: Missão: Meta: Trabalho: Serviço: Exercício: Obrigação: Dever: Plano: Projeto: função: solicitação: Requerimento: Pedido: Questão: Vontade: Problema: Pensamento: Demanda: Necessidade: Pergunta: Atribuição de custo: processo: Procedimento: operação: cuidados pessoais</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>registrar: anotar: relatar: gravar (registro: anotação: relato: gravação: commit)</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>manual: guia</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>tema: assunto: nome da conversa</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>avaliar: julgar: atribuir (avaliação: Qualidade: Atributo: vantagem/desvantagem: análise crítica: julgamento)</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>tipos: Variação (em Grupos: Classes ou unidades)</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>composição: Estrutura: Conjunto de componentes: Configuração: Organização: Arranjo: Referenciação: ordem (Tabela: Planilha: Organização de dados em linhas e colunas): Especificação: propriedade: Descrição: Característica: Aspecto</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>estado: Situação</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>regra: Método: abordagem: jeito: maneira: modo: meio: forma: instrução correta</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>origem: Fonte: Marca: Motivo: Causa: Verdade: Obviedade: Porque</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>escalonamento: expansão</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>escalonar: expandir</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>Condição: Circunstância</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>construção: formação: Engenharia</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>composto: mistura</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>componente: Elemento: parte</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>compostos orgânicos: carbono em sua estrutura. encontrados em organismos vivos.</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>compostos inorgânicos: Geralmente não contêm carbono como elemento principal (há exceções, como os carbonatos e cianetos). comuns em minerais e não associados à vida</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>óxidos: combinação com oxigênio</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>estresse: ameaça: pressão</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>colaborador</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>funcionário (parte da equipe)</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>equipe: empresa</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>desempenho: uso da energia</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>engajamento: estado de estar em</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>Rotatividade: taxa de saída e entrada de funcionários em uma organização</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>discriminação: tratamento injusto ou desigual de indivíduos ou grupos com base em características</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>desenvolvimento: capacitação</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>feedback</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>Gatilhos: estímulos: impulsos: reação (emocional ou comportamental) para repetir padrões de comportamento.</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong>COMPILAÇÃO: processo de traduzir um código fonte em código de máquina</strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong></strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong></strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong></strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong></strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong></strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong></strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong></strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong></strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong></strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong></strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong></strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong></strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong></strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong></strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong></strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong></strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong></strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong></strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong></strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong></strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong></strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong></strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong></strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong></strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong></strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong></strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong></strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong></strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong></strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong></strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong></strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong></strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong></strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong></strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong></strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong></strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong></strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong></strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong></strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong></strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong></strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong></strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong></strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong></strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong></strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong></strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong></strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong></strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong></strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong></strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong></strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong></strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong></strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong></strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong></strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong></strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong></strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong></strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong></strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong></strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong></strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong></strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong></strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong></strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong></strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong></strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong></strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong></strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong></strong>
+            </div>
+            <div class="termo" data-termo="Python">
+                <strong></strong>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const buscaInput = document.getElementById('busca');
+        const termos = document.querySelectorAll('.termo');
+
+        buscaInput.addEventListener('input', () => {
+            const query = buscaInput.value.toLowerCase();
+
+            termos.forEach(termo => {
+                const termoTexto = termo.textContent.toLowerCase(); // Obtém o texto do elemento
+                if (termoTexto.includes(query)) {
+                    termo.style.display = 'block';
+                } else {
+                    termo.style.display = 'none';
+                }
+            });
+        });
+
+        document.addEventListener('keydown', (event) => {
+            if (event.key === ';') {
+                event.preventDefault(); // Evita inserir o caractere ';' no input
+                buscaInput.focus();
+            }
+        });
+    </script>
+</body>
+</html>
